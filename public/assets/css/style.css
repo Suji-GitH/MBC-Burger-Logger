@@ -1,0 +1,56 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: white;
+}
+
+/* App title */
+h1 {
+    margin-left: 15px;
+    font-family: 'Pacifico', cursive;
+    color: crimson;
+    text-shadow: -5px 0 white, 0 2px white, 1px 0 white, 0 -1px white;
+}
+
+/* Add Burger */
+.orderBurger{
+    text-align: center;
+}
+
+#burger_name {
+    text-align: center;
+}
+
+.add {
+    background: goldenrod;
+    margin-right: 40px;
+}
+
+/* Burger List Container */
+
+.column-container {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: brown;
+    border-style: solid;
+    width: 50%;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.burgerName {
+    font-size: large;
+}
+
+.devour-it, .delete {
+    background: goldenrod;
+    float: right;
+    margin-right: 40px;
+}
+
